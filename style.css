@@ -1,0 +1,59 @@
+# test-real-estate-1
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+*{
+  margin: 10px;
+  padding: 10px;
+  Background-color:  #f4f4f4;   
+}
+
+html,
+body{
+  Background-color:#f4f4f4;
+  color: #555;
+  font-family: Arial,Helvetica;
+  font-size: 16px;
+  font-weigh: bold;
+  line-height: 1.6em;
+  margin: 0;
+}
+.nav .nav-list{
+  list-style: none;
+}
+.nav .nav-list li{
+  display: inline;
+}
+
+.nav .nav-list li a{
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav .nav-list li a:hover{
+  color: red;
+  transition: .3s;
+}
+
+.c-site-header{
+  Background-color: #d9d9d9;
+  color: #000;
+}
+.c-site-header h1{
+  border: 3px solid red;
+  display: flex;
+  justify-content: center;
+}
+iframe{
+  border: none;
+}
+
+.c-site-footer{
+  font-weight: 600;
+  margin: 0 30px;
+}
+
+
+
