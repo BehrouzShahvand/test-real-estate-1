@@ -1,10 +1,4 @@
-# test-real-estate-1
-/* =================
-  WRITE YOUR CSS HERE.
-  Check the ⌄ for help with formatting and validating your code.
-  You must write some CSS to complete this challenge.
-   ===================
-*/
+
 *{
   margin: 10px;
   padding: 10px;
@@ -17,12 +11,15 @@ body{
   color: #555;
   font-family: Arial,Helvetica;
   font-size: 16px;
-  font-weigh: bold;
+  font-weight: bold;
   line-height: 1.6em;
   margin: 0;
 }
 .nav .nav-list{
   list-style: none;
+  display: flex;
+  justify-content: center;
+  
 }
 .nav .nav-list li{
   display: inline;
@@ -46,13 +43,32 @@ body{
   display: flex;
   justify-content: center;
 }
+.c-site-header h2{
+  display: flex;
+  justify-content: center;
+}
+.c-site-header h3{
+  display: flex;
+  justify-content: center;
+}
+.video{
+  margin-left: auto;
+  margin-right: auto;
+}
 iframe{
   border: none;
+  
 }
 
 .c-site-footer{
   font-weight: 600;
   margin: 0 30px;
+}
+
+form{
+
+  display: flex;
+  flex-direction: column;
 }
 
 
